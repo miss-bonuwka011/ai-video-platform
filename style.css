@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#070b14;
+    color:white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    background:#0d1220;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#4da3ff;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#4da3ff;
+}
+
+.login-btn{
+    background:#4da3ff;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#bdbdbd;
+    font-size:20px;
+    margin-bottom:40px;
+}
+
+.generate-btn{
+    background:#4da3ff;
+    color:white;
+    border:none;
+    padding:18px 45px;
+    border-radius:15px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.prompt-box{
+    width:80%;
+    margin:auto;
+    background:#111827;
+    padding:35px;
+    border-radius:20px;
+}
+
+.prompt-box h2{
+    margin-bottom:20px;
+}
+
+textarea{
+    width:100%;
+    height:180px;
+    background:#1d2738;
+    border:none;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    resize:none;
+    font-size:17px;
+}
+
+.prompt-box button{
+    margin-top:20px;
+    width:100%;
+    padding:18px;
+    background:#4da3ff;
+    color:white;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:80px 8%;
+}
+
+.card{
+    background:#111827;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    margin:20px 0;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#bdbdbd;
+}
